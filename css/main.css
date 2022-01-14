@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: var(--fontPri);
+    margin: 0%;
+    padding: 0%;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+.body {
+    background: rgb(12,166,120);
+    background: linear-gradient(90deg, rgba(12,166,120,1) 0%, rgba(21,170,191,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+:root {
+    --fontPri: 'Roboto Mono', monospace;
+    --fontSec: 'Architects Daughter', cursive;
+
+    --blue1: #F0ECE3;
+}
+.tittle {
+    font-size: 5rem;
+    font-family: var(--fontSec);
+    text-transform: uppercase;
+    color: var(--blue1);
+    text-align: center;
+}
+.contenedor {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.form__row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+.form__select-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    margin: 2rem 4rem;
+}
