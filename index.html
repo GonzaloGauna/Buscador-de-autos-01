@@ -22,7 +22,7 @@
             <div class="form__row">
                 <div class="form__select-container">
                     <label for="marca">Marca</label>
-                    <select class="u-full-width" id="marca">
+                    <select id="marca">
                         <option value="">Seleccione</option>
                         <option value="Audi">Audi</option>
                         <option value="BMW">BMW</option>
@@ -34,7 +34,7 @@
                 </div>
                 <div class="form__select-container">
                     <label for="year">Año</label>
-                    <select class="u-full-width" id="year">
+                    <select id="year">
                         <option value="">Seleccione</option>
                     </select>
                 </div>
@@ -95,11 +95,12 @@
             </div>
         </form>
 
-        <h1>Resultados</h1>
+        <h1 class="results">Resultados</h1>
         <div id="resultado"></div>
 
     </div>
 
+    <script src="./js/db.js"></script>
     <script src="./js/app.js"></script>
 </body>
 </html>
